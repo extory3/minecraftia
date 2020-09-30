@@ -36,7 +36,7 @@ var scene = new THREE.Scene();
 var renderer = new THREE.WebGLRenderer();
 
 const loader = new THREE.TextureLoader();
-loader.load('house.png', function(texture){
+loader.load('../house.png', function(texture){
   scene.background = texture;
 });
 

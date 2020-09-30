@@ -1,0 +1,5 @@
+play.steeltonmc.com:25565
+play.ccraft.xyz:8080
+mc.happy-hg.com:25565
+play.kansascitymc.omc:25582
+bedrock.thenrk.net:19132
