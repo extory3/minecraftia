@@ -126,21 +126,20 @@ if(mystateAfter==true){
 
 
 
-
-
   function mainPage(){
     audio.addEventListener('ended',function(){
       window.location.href = "/";
     });
   }
 
-
   //main menu events
-  if(window.location == "http://localhost:8080"){
+  if(window.location == "http://localhost:8080/"){
     setLanguage(KR_LANG.menu_buttons, RUS_LANG.menu_buttons, US_LANG.menu_buttons, menu_buttons_text);
   }
   //sign up page events
   if(PathTo==window.location.origin + sign_up){
+
+    
 // setLanguage(KR_LANG.sign_up_page, RUS_LANG.sign_up_page, US_LANG.sign_up_page, but[0]);
   but[0].addEventListener('click',mainPage);
   but[1].addEventListener('click',sign_up_success);
