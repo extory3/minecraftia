@@ -139,12 +139,9 @@ animate();
 
 
   function onWindowResize() {
-
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
-
     renderer.setSize( window.innerWidth, window.innerHeight );
-
   }
 
 
@@ -173,7 +170,7 @@ animate();
     }
   }
 
-
+//collision detection for bottom droplets
   for(let i=0;i<raindropletclass.bottom.length;i++){
     raindropletclass.bottom[i].position.y+= raindropletclass.speed[i] + Math.abs(Math.sin(delta * 0.001));
     raindropletclass.bottom[i].position.x+= raindropletclass.direction[i];

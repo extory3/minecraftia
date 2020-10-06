@@ -1,3 +1,5 @@
+# The website is currently under development
+
 ## Inspiration
 I took the inspiration from the childhood game "Minecraft". Everyone loves it!
 

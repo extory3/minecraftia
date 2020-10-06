@@ -1,8 +1,9 @@
-body {
+/* body {
   text-align: center;
-}
+} */
 
-#sign_up_box, #log_in_box{
+#sign_up_box, #log_in_box,#randomize_server_block{
+  text-align: center;
   width:400px;
   height:750px;
   background-color: rgb(32,32,32,0.7);
@@ -16,14 +17,23 @@ body {
   right:0;
   padding:30px;
 }
+
+#menu_box > .background_btn{
+  margin-bottom: 60px;
+}
+#randomize_server_block{
+  text-align:justify;
+  width:600px;
+  height:500px;
+}
 .rainbow_background{
   background: red;
-   background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
-   background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
-   background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
-   background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+  background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+  background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+  background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .success{
   display:none;
@@ -57,11 +67,12 @@ body {
   transform: translate(-50%, -50%);
 }
 
-#menu_box .background_btn{
+#menu_box .background_btn{randomize_server_block
   margin-bottom:50px;
 }
 
 .background_btn{
+  text-align: center;
   cursor:pointer;
   background: url('background_btn.png') center/cover;
   overflow:hidden;
@@ -143,10 +154,10 @@ h2{
 p{
   font-size:1.2500em;
 }
-/* @font-face{
-  font-family:ru-minecraftia;
-  src:url('Rus_Minecraftia-Regular.otf') format("opentype");
-} */
+
+#server_logo{
+  left:200px;
+}
 
 @media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
 @media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */

@@ -1,14 +1,14 @@
-// const Http = new XMLHttpRequest();
-// const url = 'https://api.minetools.eu/ping/play.steeltonmc.com/25565'
-// Http.open("GET",url);
-// Http.send();
-//
-//
-// Http.onreadystatechange=function(){
-//   if(this.readyState==4 && this.status ==200){
-//     console.log(Http.responseText);
-//   }
-// }
+const Http = new XMLHttpRequest();
+const url = 'https://api.minetools.eu/ping/play.steeltonmc.com/25565'
+Http.open("GET",url);
+Http.send();
+
+
+Http.onreadystatechange=function(){
+  if(this.readyState==4 && this.status ==200){
+    console.log(Http.responseText);
+  }
+}
 
 // var rawFile = new XMLHttpRequest();
 //    rawFile.open("GET", "/ip_list.txt", false);
