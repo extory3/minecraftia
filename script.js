@@ -275,11 +275,11 @@ for(let i=0;i<img_icon.length;i++){
   }
 }
 
-var btn1 = document.getElementsByClassName("hibtn");
-btn1[0].onclick = function(){
-  // console.log("text_class: " + text_class);
-  console.log("navigator" + nagivator.language);
-}
+// var btn1 = document.getElementsByClassName("hibtn");
+// btn1[0].onclick = function(){
+//   // console.log("text_class: " + text_class);
+//   console.log("navigator" + nagivator.language);
+// }
 console.log(state);
 
 

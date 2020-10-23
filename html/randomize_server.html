@@ -24,12 +24,24 @@
 		</div>
 
 <div id="randomize_server_block" lang="en">
-	<h2>Randomize!</h2>
-	<p>Server Name: </p>
-	<p>Status: </p>
-	<p>Online Players: </p>
-	<p>Approximate Ping: </p>
-	<img id="server_logo" src="" alt="">
+	<h2 style="text-align:center;">Randomize!</h2>
+	<img style="width:100px; height:100px; display:block; margin-left:auto; margin-right:auto" id="server_logo" src="" alt="">
+	<p>Status: <span id="status"></span></p>
+	<p>IP: <b><span id="ip"></span></b></p>
+	<p>Server Name: <span id="server_name"></span></p>
+	<p>Online Players: <span id="online_players"></span></p>
+	<p>Version: <span id="version"></span></p>
+	<div style="display:table; width:100%;margin-top:50px">
+		<div class="background_btn" style="display:table-cell; width:45%">
+			<p>Randomize</p>
+		</div>
+		<div style="display:table-cell; width:10%">
+
+		</div>
+		<div class="background_btn" style="display:table-cell; width:45%">
+			<p>Main Page</p>
+		</div>
+	</div>
 </div>
 
 <audio id="a-on-click">
@@ -40,12 +52,11 @@
 
 
 		<script src="../three.js"></script>
-		<script type="text/javascript" src="../randomize.js">
-
-		</script>
 		<script type="text/javascript" src="../animate.js"></script>
 		</script>
 		<script type="text/javascript" src="../script.js"></script>
+		<script type="text/javascript" src="../randomize.js">
 
+		</script>
 	</body>
 </html>
